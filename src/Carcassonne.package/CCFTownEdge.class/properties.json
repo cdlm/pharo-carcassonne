@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CCFEdge",
+	"category" : "Carcassonne-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"town"
+	],
+	"name" : "CCFTownEdge",
+	"type" : "normal"
+}

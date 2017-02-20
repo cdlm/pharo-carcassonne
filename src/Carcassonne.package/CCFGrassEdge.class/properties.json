@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CCFEdge",
+	"category" : "Carcassonne-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CCFGrassEdge",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CCFEdge",
+	"category" : "Carcassonne-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"left",
+		"right"
+	],
+	"name" : "CCFRoadEdge",
+	"type" : "normal"
+}

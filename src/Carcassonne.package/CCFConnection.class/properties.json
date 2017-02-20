@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Carcassonne-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"edgeA",
+		"edgeB"
+	],
+	"name" : "CCFConnection",
+	"type" : "normal"
+}

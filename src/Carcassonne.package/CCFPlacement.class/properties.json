@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Carcassonne-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tile",
+		"northward",
+		"westward",
+		"southward",
+		"eastward"
+	],
+	"name" : "CCFPlacement",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CCFConnection",
+	"category" : "Carcassonne-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CCFIllegalConnection",
+	"type" : "normal"
+}
