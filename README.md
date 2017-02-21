@@ -10,4 +10,13 @@ This started as an experiment in OO design, in [Pharo](http://pharo.org).
 
 ### Other implementations
 
-[C++](https://github.com/ThomasHermans/Carcassonne)
+[C++](https://github.com/ThomasHermans/Carcassonne),
+[Clojure](https://github.com/djui/carcassonne),
+[CoffeeScript](https://github.com/josherich/carcassonne),
+[Java](https://github.com/svenmeys/Carcassonne),
+[Javascript](https://github.com/andreasonny83/carcassonne-scoreboard-client),
+
+…and IMHO the best of all, a set
+of [Lego designs for the tiles](http://www.iamcal.com/lego-carcassonne/),
+with [3D renders](http://www.iamcal.com/lego-carcassonne/)
+in [POV-Ray](http://povray.org). Awesome!
