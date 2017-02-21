@@ -1,5 +1,5 @@
 tests
-testExampleFromRuleBook
+testRuleBookMoreThanOneFarmer
 	| tile1 tile2 tile3 tile4 placement |
 	tile1 := CCFBasicGame rfrcTile rotateClockwise.
 	tile2 := CCFBasicGame fcfcFieldTile rotateClockwise.
@@ -8,6 +8,7 @@ testExampleFromRuleBook
 	
 	placement := tile1 placement.
 	placement should be isLegal.
+	placement commit.
 	
 	placement := tile2 placement northward: tile1.
 	placement should be isLegal.

@@ -1,3 +1,4 @@
-as yet unclassified
+rotating
 rotateClockwise
-	edges := edges allButFirst , { edges first }
+	"edges := edges allButFirst , { edges first }"
+	self rotateEdgesBy: -1

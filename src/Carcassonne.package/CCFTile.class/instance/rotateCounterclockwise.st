@@ -1,3 +1,4 @@
-as yet unclassified
+rotating
 rotateCounterclockwise
-	edges := { edges last } , edges allButLast
+	"edges := { edges last } , edges allButLast"
+	self rotateEdgesBy: 1
