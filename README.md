@@ -1,5 +1,7 @@
 # An object-oriented implementation of Carcassonne
 
+[![Build Status](https://travis-ci.org/cdlm/pharo-carcassonne.svg?branch=master)](https://travis-ci.org/cdlm/pharo-carcassonne)
+
 [Carcassonne](http://www.hans-im-glueck.de/english/) is a well-known tabletop
 game where you build a map of adjacent tiles, and claim points by building and
 claiming cities, roads, and fields.
