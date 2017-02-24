@@ -17,6 +17,6 @@ This started as an experiment in OO design, in [Pharo](http://pharo.org).
 [Javascript](https://github.com/andreasonny83/carcassonne-scoreboard-client),
 
 …and IMHO the best of all, a set
-of [Lego designs for the tiles](http://www.iamcal.com/lego-carcassonne/),
+of [Lego designs for the tiles](https://github.com/iamcal/lego-carcassonne),
 with [3D renders](http://www.iamcal.com/lego-carcassonne/)
 in [POV-Ray](http://povray.org). Awesome!
