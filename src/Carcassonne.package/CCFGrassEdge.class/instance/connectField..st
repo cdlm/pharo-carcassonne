@@ -1,3 +1,3 @@
 connecting
-connectGrass: aGrassEdge 
+connectField: aGrassEdge 
 	^ self legalConnectionWith: aGrassEdge

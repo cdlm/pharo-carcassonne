@@ -9,6 +9,6 @@ fcfcFieldTile
 	
 	^ CCFTile
 		north: (CCFGrassEdge on: field)
-		west: (CCFTownEdge on: cityWest)
+		west: (CCFCityEdge on: cityWest)
 		south: (CCFGrassEdge on: field)
-		east: (CCFTownEdge on: cityEast)
+		east: (CCFCityEdge on: cityEast)

@@ -5,7 +5,7 @@ ccccPennantTile
 	city := CCFSegment new. self flag: 'pennant segment'.
 	
 	^ CCFTile
-		north: (CCFTownEdge on: city)
-		west: (CCFTownEdge on: city)
-		south: (CCFTownEdge on: city)
-		east: (CCFTownEdge on: city)
+		north: (CCFCityEdge on: city)
+		west: (CCFCityEdge on: city)
+		south: (CCFCityEdge on: city)
+		east: (CCFCityEdge on: city)

@@ -1,3 +1,3 @@
 double dispatch
 connect: aTileEdge 
-	^ aTileEdge connectTown: self
+	^ aTileEdge connectCity: self

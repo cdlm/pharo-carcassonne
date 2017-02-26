@@ -8,7 +8,7 @@ cfrrTile
 	field := CCFSegment new.
 	
 	^ CCFTile
-		north: (CCFTownEdge on: city)
+		north: (CCFCityEdge on: city)
 		west: (CCFGrassEdge on: field)
 		south: (CCFRoadEdge on: road between: fieldSouthWest and: field)
 		east: (CCFRoadEdge on: road between: field and: fieldSouthWest)

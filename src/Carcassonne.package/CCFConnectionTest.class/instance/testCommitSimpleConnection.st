@@ -1,4 +1,4 @@
 tests
 testCommitSimpleConnection
 	self testCommitSimpleConnectionOfClass: CCFGrassEdge.
-	self testCommitSimpleConnectionOfClass: CCFTownEdge.
+	self testCommitSimpleConnectionOfClass: CCFCityEdge.

@@ -11,4 +11,4 @@ rfrcTile
 		north: (CCFRoadEdge on: road between: fieldWest and: fieldEast)
 		west: (CCFGrassEdge on: fieldWest)
 		south: (CCFRoadEdge on: road between: fieldEast and: fieldWest)
-		east: (CCFTownEdge on: city)
+		east: (CCFCityEdge on: city)

@@ -1,6 +1,7 @@
 instance creation
-on: aRoadSegment between: leftField and: rightField
+on: aRoadSegment between: leftFieldSegment and: rightFieldSegment
 	"left and right when viewed from inside the tile"
 	^ (self on: aRoadSegment)
-		setLeft: leftField right: rightField;
+		left: leftFieldSegment;
+		right: rightFieldSegment;
 		yourself

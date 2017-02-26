@@ -6,7 +6,7 @@ ccffTile
 	field := CCFSegment new.
 	
 	^ CCFTile
-		north: (CCFTownEdge on: city)
-		west: (CCFTownEdge on: city)
+		north: (CCFCityEdge on: city)
+		west: (CCFCityEdge on: city)
 		south: (CCFGrassEdge on: field)
 		east: (CCFGrassEdge on: field)

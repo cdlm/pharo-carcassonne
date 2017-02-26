@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"town"
-	],
-	"name" : "CCFTownEdge",
+	"instvars" : [ ],
+	"name" : "CCFCityEdge",
 	"type" : "normal"
 }
