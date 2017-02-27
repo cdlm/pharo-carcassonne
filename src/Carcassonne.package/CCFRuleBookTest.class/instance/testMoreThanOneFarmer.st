@@ -1,5 +1,5 @@
 tests
-testRuleBookMoreThanOneFarmer
+testMoreThanOneFarmer
 	| tile1 tile2 tile3 tile4 placement |
 	tile1 := CCFBasicGame rfrcTile rotateClockwise.
 	tile2 := CCFBasicGame fcfcFieldTile rotateClockwise.

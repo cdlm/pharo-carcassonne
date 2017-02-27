@@ -1,8 +1,8 @@
-tests
-testRuleBookPlacingTilesRoadContinued
+tests - placing tiles
+testPlacingTilesCityContinued
 	| tile1 tile2 placement |
-	tile1 := CCFBasicGame rfrcTile rotateCounterclockwise.
-	tile2 := CCFBasicGame rrrcTile.
+	tile1 := CCFBasicGame cfcfTile rotateCounterclockwise.
+	tile2 := CCFBasicGame rrfcTile rotateHalfturn.
 	
 	placement := tile1 placement.
 	placement should be isLegal.

@@ -1,11 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "CCFEdge",
+	"super" : "Object",
 	"category" : "Carcassonne-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "CCFGrassEdge",
+	"instvars" : [
+		"segment",
+		"follower"
+	],
+	"name" : "CCFDeployment",
 	"type" : "normal"
 }

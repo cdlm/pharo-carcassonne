@@ -1,5 +1,5 @@
-tests
-testRuleBookPlacingTilesCityFieldContinued
+tests - placing tiles
+testPlacingTilesCityFieldContinued
 	| tile1 tile2 tile3 tile4 placement |
 	tile1 := CCFBasicGame ccccPennantTile.
 	tile2 := CCFBasicGame cfrrTile.

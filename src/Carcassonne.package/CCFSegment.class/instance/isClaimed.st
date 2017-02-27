@@ -1,0 +1,3 @@
+testing
+isClaimed
+	^ follower notNil

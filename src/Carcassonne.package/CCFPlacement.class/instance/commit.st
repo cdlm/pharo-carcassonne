@@ -1,4 +1,4 @@
-connecting
+committing
 commit
 	northward commit.
 	westward commit.

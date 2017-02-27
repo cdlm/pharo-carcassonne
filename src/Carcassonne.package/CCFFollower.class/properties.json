@@ -5,11 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"extent",
-		"tile",
-		"follower"
-	],
-	"name" : "CCFSegment",
+	"instvars" : [ ],
+	"name" : "CCFFollower",
 	"type" : "normal"
 }

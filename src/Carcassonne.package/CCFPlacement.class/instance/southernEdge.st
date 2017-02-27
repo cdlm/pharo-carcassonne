@@ -1,0 +1,3 @@
+accessing
+southernEdge
+	^ tile southernEdge
