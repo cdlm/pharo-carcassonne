@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	segments := IdentitySet new
+	textures := Dictionary new
