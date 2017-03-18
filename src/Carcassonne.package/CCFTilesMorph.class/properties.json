@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Carcassonne-Core",
+	"super" : "Morph",
+	"category" : "Carcassonne-UI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"connections",
-		"tile"
+		"map"
 	],
-	"name" : "CCFPlacement",
+	"name" : "CCFTilesMorph",
 	"type" : "normal"
 }

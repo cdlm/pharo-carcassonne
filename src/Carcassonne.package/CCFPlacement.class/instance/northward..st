@@ -1,3 +1,4 @@
 initialization
 northward: aTile
-	northward := aTile southernEdge connect: tile northernEdge
+	connections at: 1
+		put: (aTile southernEdge connect: tile northernEdge)

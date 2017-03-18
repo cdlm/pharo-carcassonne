@@ -6,10 +6,6 @@ testPlacingTilesCityFieldContinued
 	tile3 := CCFBasicGame rfrfTile rotateClockwise.
 	tile4 := CCFBasicGame ccffTile.
 	
-	placement := tile1 placement.
-	placement should be isLegal.
-	placement commit.
-	
 	placement := tile2 placement northward: tile1.
 	placement should be isLegal.
 	placement commit.

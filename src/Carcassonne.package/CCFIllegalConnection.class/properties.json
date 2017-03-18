@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "CCFConnection",
+	"super" : "CCFLegalConnection",
 	"category" : "Carcassonne-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

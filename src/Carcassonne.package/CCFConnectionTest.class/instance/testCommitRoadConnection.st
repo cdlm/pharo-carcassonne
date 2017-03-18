@@ -11,7 +11,7 @@ testCommitRoadConnection
 	edgeA := CCFRoadEdge on: sa between: sal and: sar.
 	edgeB := CCFRoadEdge on: sb between: sbl and: sbr.
 	
-	(CCFConnection with: edgeA with: edgeB) commit.
+	(CCFLegalConnection with: edgeA with: edgeB) commit.
 	
 	{ sa. sb. sal. sbr. sar. sbl } pairsDo: [ :a :b |
 		a extent should be covers: b.

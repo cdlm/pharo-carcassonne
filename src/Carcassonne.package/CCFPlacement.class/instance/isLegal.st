@@ -1,6 +1,4 @@
 testing
 isLegal
-	^ northward isLegal	and:
-		[ westward isLegal and:
-			[ southward isLegal and:
-				[ eastward isLegal ]]]
+	^ (connections allSatisfy: #isLegal)
+		and: [ connections anySatisfy: [ :it | it isPeriphery not ] ]

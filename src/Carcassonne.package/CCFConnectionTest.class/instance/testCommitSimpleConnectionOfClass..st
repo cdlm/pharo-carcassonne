@@ -7,7 +7,7 @@ testCommitSimpleConnectionOfClass: edgeClass
 	edgeA := edgeClass on: sa.
 	edgeB := edgeClass on: sb.
 	
-	(CCFConnection with: edgeA with: edgeB) commit.
+	(CCFLegalConnection with: edgeA with: edgeB) commit.
 	
 	sa extent should be covers: sb.
 	sb extent should be: sa extent

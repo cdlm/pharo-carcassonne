@@ -1,3 +1,3 @@
 committing
 commit
-	edgeA commitConnection: edgeB
+	self subclassResponsibility

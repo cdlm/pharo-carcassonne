@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "CCFConnection",
+	"instvars" : [
+		"tiles"
+	],
+	"name" : "CCFMap",
 	"type" : "normal"
 }

@@ -6,10 +6,6 @@ testMoreThanOneFarmer
 	tile3 := CCFBasicGame frrfTile rotateClockwise.
 	tile4 := CCFBasicGame frrfTile rotateCounterclockwise.
 	
-	placement := tile1 placement.
-	placement should be isLegal.
-	placement commit.
-	
 	placement := tile2 placement northward: tile1.
 	placement should be isLegal.
 	placement commit.

@@ -1,3 +1,3 @@
 committing
 legalConnectionWith: aTileEdge
-	^ CCFConnection with: self with: aTileEdge
+	^ CCFLegalConnection with: self with: aTileEdge

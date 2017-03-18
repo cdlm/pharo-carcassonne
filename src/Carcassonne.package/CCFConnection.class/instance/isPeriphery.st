@@ -1,3 +1,3 @@
 testing
-isLegal
+isPeriphery
 	^ self subclassResponsibility

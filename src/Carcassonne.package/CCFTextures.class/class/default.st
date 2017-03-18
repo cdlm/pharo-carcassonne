@@ -1,5 +1,6 @@
 accessing
 default
+	"All images must have matching dimension & origin/padding parameters"
 	^ self new
 		load: (FileLocator imageDirectory / 'textures')
 		size: 174@174
