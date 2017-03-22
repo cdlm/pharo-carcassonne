@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "CCFEdge",
+	"super" : "CCFTileEdge",
 	"category" : "Carcassonne-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

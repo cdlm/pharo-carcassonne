@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "CCFTileEdge",
+	"super" : "CCFEdge",
 	"category" : "Carcassonne-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "CCFCityEdge",
+	"name" : "CCFVoidEdge",
 	"type" : "normal"
 }

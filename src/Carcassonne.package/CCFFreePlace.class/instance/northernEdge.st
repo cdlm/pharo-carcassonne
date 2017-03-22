@@ -1,0 +1,3 @@
+accessing
+northernEdge
+	^ CCFVoidEdge new

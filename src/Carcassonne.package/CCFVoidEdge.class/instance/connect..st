@@ -1,3 +1,3 @@
 double dispatch
 connect: aTileEdge
-	^ self subclassResponsibility
+	^ CCFUnconnected instance

@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"segment"
-	],
+	"instvars" : [ ],
 	"name" : "CCFEdge",
 	"type" : "normal"
 }
