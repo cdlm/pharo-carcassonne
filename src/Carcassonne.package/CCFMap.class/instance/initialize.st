@@ -1,3 +1,7 @@
 initialization
 initialize
-	tiles := Matrix rows: 3 columns: 3 element: CCFFreePlace new
+	freePlace := CCFFreePlace new.
+	tiles := Matrix
+		rows: 3
+		columns: 3
+		element: freePlace

@@ -1,14 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Carcassonne-Core",
+	"super" : "TestCase",
+	"category" : "Carcassonne-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"tiles",
-		"freePlace"
+		"startingTile",
+		"map"
 	],
-	"name" : "CCFMap",
+	"name" : "CCFMapTest",
 	"type" : "normal"
 }
