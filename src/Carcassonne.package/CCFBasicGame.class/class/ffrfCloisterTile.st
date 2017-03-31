@@ -1,4 +1,4 @@
-tiles
+tile factories
 ffrfCloisterTile
 	| field road |
 	field := CCFSegment new.
@@ -7,6 +7,6 @@ ffrfCloisterTile
 
 	^ CCFTile
 		north: (CCFFieldEdge on: field)
-		west: (CCFFieldEdge on: field)
+		west:  (CCFFieldEdge on: field)
 		south: (CCFRoadEdge on: road between: field and: field)
-		east: (CCFFieldEdge on: field)
+		east:  (CCFFieldEdge on: field)

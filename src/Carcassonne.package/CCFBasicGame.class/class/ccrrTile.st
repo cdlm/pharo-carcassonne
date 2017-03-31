@@ -1,4 +1,4 @@
-tiles
+tile factories
 ccrrTile
 	"Tile P from rule book, 3 available"
 	| city road field fieldSouthWest |
@@ -9,6 +9,6 @@ ccrrTile
 	
 	^ CCFTile
 		north: (CCFCityEdge on: city)
-		west: (CCFCityEdge on: city)
+		west:  (CCFCityEdge on: city)
 		south: (CCFRoadEdge on: road between: fieldSouthWest and: field)
-		east: (CCFRoadEdge on: road between: field and: fieldSouthWest)
+		east:  (CCFRoadEdge on: road between: field and: fieldSouthWest)

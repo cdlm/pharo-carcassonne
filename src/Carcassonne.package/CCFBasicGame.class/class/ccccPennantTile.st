@@ -1,4 +1,4 @@
-tiles
+tile factories
 ccccPennantTile
 	"Tile C from rule book, 1 available"
 	| city |
@@ -6,6 +6,6 @@ ccccPennantTile
 	
 	^ CCFTile
 		north: (CCFCityEdge on: city)
-		west: (CCFCityEdge on: city)
+		west:  (CCFCityEdge on: city)
 		south: (CCFCityEdge on: city)
-		east: (CCFCityEdge on: city)
+		east:  (CCFCityEdge on: city)

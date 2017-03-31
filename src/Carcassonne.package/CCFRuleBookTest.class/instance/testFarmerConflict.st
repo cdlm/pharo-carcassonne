@@ -7,7 +7,7 @@ testFarmerConflict
 	
 	tile2 := CCFBasicGame ffrfCloisterTile rotateClockwise.
 	tile2 placement westward: tile1; commit.
-	tile3 := CCFBasicGame fcfcFieldTile rotateClockwise.
+	tile3 := CCFBasicGame cfcfCitiesTile.
 	tile3 placement westward: tile2; commit.
 	placement := CCFBasicGame cfrrTile placement westward: tile3; commit.
 	

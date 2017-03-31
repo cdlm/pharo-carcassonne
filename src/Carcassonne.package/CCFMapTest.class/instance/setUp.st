@@ -1,4 +1,4 @@
 initialization
 setUp
-	startingTile := CCFBasicGame rfrcTile.
+	startingTile := CCFBasicGame startingTile.
 	map := CCFMap with: startingTile.

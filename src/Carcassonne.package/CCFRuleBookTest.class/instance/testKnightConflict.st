@@ -5,7 +5,7 @@ testKnightConflict
 	knight := CCFFollower new.
 	farmer := CCFFollower new.
 	
-	claimedTile := CCFBasicGame rrfcTile.
+	claimedTile := CCFBasicGame crrfTile rotateClockwise.
 	(claimedTile placement commit easternEdge deploy: existingKnight) commit.
 
 	tilePlacement := (CCFBasicGame ccffTile placement westward: claimedTile) commit.

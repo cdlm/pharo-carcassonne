@@ -1,12 +1,12 @@
 tile factories
-cfffTile
-	"Tile E from rule book, 5 available"
+ccfcTile
+	"Tile R from rule book, 3 available"
 	| city field |
 	city := CCFSegment new.
 	field := CCFSegment new.
 	
 	^ CCFTile
 		north: (CCFCityEdge on: city)
-		west:  (CCFFieldEdge on: field)
+		west:  (CCFCityEdge on: city)
 		south: (CCFFieldEdge on: field)
-		east:  (CCFFieldEdge on: field)
+		east:  (CCFCityEdge on: city)
