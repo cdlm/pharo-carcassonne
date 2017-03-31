@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"map"
+		"map",
+		"textures"
 	],
 	"name" : "CCFTilesMorph",
 	"type" : "normal"

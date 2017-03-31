@@ -1,3 +1,4 @@
 initialization
 setMap: aMap
-	map := aMap
+	map := aMap.
+	self extent: map extent * 174
