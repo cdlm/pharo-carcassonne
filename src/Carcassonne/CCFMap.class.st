@@ -5,7 +5,7 @@ Class {
 		'tiles',
 		'freePlace'
 	],
-	#category : 'Carcassonne-Core'
+	#category : #'Carcassonne-Core'
 }
 
 { #category : #'instance creation' }
@@ -30,7 +30,7 @@ CCFMap >> extent [
 { #category : #initialization }
 CCFMap >> initialize [
 	freePlace := CCFFreePlace new.
-	tiles := Matrix
+	tiles := Array2D
 		rows: 3
 		columns: 3
 		element: freePlace
