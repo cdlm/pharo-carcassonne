@@ -2,4 +2,4 @@ language: smalltalk
 sudo: false
 
 smalltalk:
-  - Pharo-6.0
+  - Pharo-stable
