@@ -1,3 +1,0 @@
-accessing
-adjacent
-	^ CCFVoidEdge new

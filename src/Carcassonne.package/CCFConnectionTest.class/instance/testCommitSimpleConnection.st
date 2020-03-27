@@ -1,4 +1,0 @@
-tests
-testCommitSimpleConnection
-	self testCommitSimpleConnectionOfClass: CCFFieldEdge.
-	self testCommitSimpleConnectionOfClass: CCFCityEdge.

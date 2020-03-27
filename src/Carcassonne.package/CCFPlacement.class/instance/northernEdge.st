@@ -1,3 +1,0 @@
-accessing
-northernEdge
-	^ tile northernEdge

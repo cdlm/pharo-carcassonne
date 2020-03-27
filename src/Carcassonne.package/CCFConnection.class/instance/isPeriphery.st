@@ -1,3 +1,0 @@
-testing
-isPeriphery
-	^ self subclassResponsibility

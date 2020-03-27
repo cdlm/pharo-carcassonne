@@ -1,3 +1,0 @@
-testing
-isLegal
-	^ self subclassResponsibility

@@ -1,3 +1,0 @@
-accessing
-easternEdge
-	^ edges fourth

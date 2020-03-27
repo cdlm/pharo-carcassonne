@@ -1,3 +1,0 @@
-connecting
-commit
-	"Do nothing"

@@ -1,3 +1,0 @@
-committing
-commit
-	self subclassResponsibility
